@@ -65,6 +65,12 @@ fieldset {
   border: none;
 }
 
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 fieldset legend {
   font-family: 'Archivo', sans-serif;
   font-weight: 600;
@@ -111,5 +117,5 @@ fieldset legend {
   font-size: 16px;
   line-height: 26px;
 
-  color: #C1BCCC
+  color: #C1BCCC;
 }
