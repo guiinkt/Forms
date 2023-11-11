@@ -4,8 +4,11 @@
   padding: 0;
 }
 
-body {
+body, input, button, select, textarea {
   font-family: 'Poppins', sans-serif;
+}
+
+body {
   background: #E5E5E5;
 }
 
@@ -101,6 +104,12 @@ fieldset legend {
   border: 1px solid #E6E6F0;
   border-radius: 8px;
 
-  width: 200px;
-  padding-left: 100px;
+  height: 56px;
+
+  padding: 0 24px;
+
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #C1BCCC
 }
