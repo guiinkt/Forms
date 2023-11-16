@@ -1,7 +1,7 @@
 <h1 align="center"> Forms </h1>
 
 <p align="center">
-Projeto promovido pela ROcketseat, para ensinar a elaboração de formulários em páginas WEB.
+Projeto desenvolvido pela Rocketseat, para ensinar a elaboração de formulários em páginas WEB.
 </p>
 
 <p align="center">
