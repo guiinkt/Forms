@@ -24,7 +24,7 @@
       <form>
         <fieldset>
           <div class="fieldset-wrapper">
-            <legend>Informações do evento</legend>
+            <legend>Informações do Evento</legend>
 
             <div class="input-wrapper">
               <label for="event-title"
@@ -48,7 +48,7 @@
             </div>
 
             <div class="input-wrapper">
-              <label for="event-link">Informações extras</label>
+              <label for="event-info">Informações extras</label>
               <textarea id="event-info"></textarea>
             </div>
 
@@ -82,6 +82,11 @@
               >
               <input type="password" id="event-password" />
             </div>
+
+            <div class="checkbox-wrapper">
+              <input type="checkbox" id="event-private" />
+              <label for="event-private">Evento privado</label>
+            </div>
           </div>
         </fieldset>
 
@@ -91,23 +96,17 @@
 
             <div class="col-3">
               <div class="input-wrapper">
-                <label for="event-date"
-                  >Data</label
-                >
+                <label for="event-date">Data</label>
                 <input type="date" id="event-date" />
               </div>
 
               <div class="input-wrapper">
-                <label for="event-begin"
-                  >Das</label
-                >
+                <label for="event-begin">Das</label>
                 <input type="time" id="event-begin" />
               </div>
 
               <div class="input-wrapper">
-                <label for="event-end"
-                  >Até</label
-                >
+                <label for="event-end">Até</label>
                 <input type="time" id="event-end" />
               </div>
             </div>
