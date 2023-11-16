@@ -92,7 +92,8 @@ fieldset legend {
   flex-direction: column;
 }
 
-.input-wrapper label {
+.input-wrapper label,
+.checkbox-wrapper label {
   font-size: 14px;
   line-height: 24px;
   color: #4E4958;
