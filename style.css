@@ -173,6 +173,8 @@ fieldset legend {
   height: 24px; 
 
   opacity: 0;
+
+  cursor: pointer;
 }
 
 .checkbox-wrapper label::before{
@@ -220,4 +222,6 @@ footer .button {
   line-height: 26px;
   
   color: #FFFFFF;
+
+  cursor: pointer;
 }
