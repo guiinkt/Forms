@@ -225,3 +225,7 @@ footer .button {
 
   cursor: pointer;
 }
+
+footer .button:hover {
+  background: #05a14b;
+}
