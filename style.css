@@ -209,4 +209,15 @@ footer {
 
 footer .button {
   height: 56px;
+  background: #04D361;
+  border: 0;
+  border-radius: 8px;
+
+  font-family: 'Archivo';
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  
+  color: #FFFFFF;
 }
